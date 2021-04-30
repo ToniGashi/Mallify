@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+
+.h1 {
+  color: #30336b;
+}
+
+.p1 {
+  text-align: center;
+}
+
+.findshortest-container {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Castoro", serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#small {
+  color:black;
+  font-family: "Castoro", serif;
+}
+
+.btn {
+  background: #30336b;
+  border-radius: 5px;
+  box-shadow: 2px 2px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #cecbcbfa;
+  padding: 5px;
+  margin-left: 130px;
+}
+
+.img1 {
+  margin: 20px;
+  filter: grayscale(30%);
+  height: 25vh;
+  width: auto;
+}
+
+.location {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.location select {
+  padding: 2px 2px 2px 2px;
+  background-color: #30336b;
+  color: #f4f4f4fa;
+  font: bold;
+  max-height: 5vh;
+  margin-top: 10px;
+}
+
+.calcbtn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+select:focus,
+.btn:focus {
+  outline: 0;
+}
